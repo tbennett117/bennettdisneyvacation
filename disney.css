@@ -1,0 +1,589 @@
+/****************
+GENERAL
+****************/
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1.2;
+    margin: 15px;
+    background-color: #e0ddc7
+}
+
+h3 {
+	text-align: center;
+}
+
+/****************
+Header
+****************/
+
+.main-header {
+   background: url('../img/castle2.jpg') no-repeat center;
+   background-size: cover;
+   border-bottom: 20px;
+   
+}
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    width: 100%;
+    
+}
+
+.name { 
+   font-family: 'WaltographRegular'; 
+   font-weight: normal; 
+   font-style: normal; 
+   text-align: center;
+    
+}
+
+.name {
+    font-size: 1.75em; /* 4.75em in media querie*/
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: .45em; /* 2em in media querie*/
+    text-align: center;
+    
+}
+
+.intro {
+    float: inherit;
+    font-size: 1em;
+}
+
+/****************
+Body
+****************/
+
+
+/* site colors */
+/* Blue, Red, Yellow */
+
+.primary,
+.secondary,
+.about {
+	width: 15%;
+}
+
+
+.name {
+    color: red;
+}
+
+h2 {
+    color: #f4f009;
+}
+
+.plan {
+    color: #000;
+	
+}
+
+
+
+
+/****************
+Navigation
+****************/
+nav {
+    text-align: right;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+    list-style: none;
+    
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav a {
+    font-weight: 800;
+    font-size: 1em;
+    padding: 5px 10px;
+    
+}
+
+nav a, nav a:visited {
+    color: red;
+}
+
+nav a h1 h2 {
+    color: red;
+}
+
+nav a, nav a:visited {
+color: #f4f009;
+}
+
+nav a.selected, nav a:hover {
+  color: red;
+}
+
+.stay:link {
+	color: red;
+	font-weight: 800;
+}
+
+.stay:visited {
+	color: mediumpurple;
+}
+
+.stay:hover {
+	color: red;
+	
+}
+
+.calendar:link {
+	color: red;
+	font-weight: 800;
+}
+
+.calendar:visited {
+	color: mediumpurple;
+}
+
+.calendar:hover {
+	color: red;
+	
+}
+
+.dining:link {
+	color: red;
+	font-weight: 800;
+}
+
+.dining:visited {
+	color: mediumpurple;
+}
+
+.dining:hover {
+	color: red;
+	
+}
+
+.previous:link {
+	color: red;
+	font-weight: 800;
+}
+
+.previous:visited {
+	color: #f4f009;
+}
+
+.previous:hover {
+	color: red;
+	
+}
+
+.navposts:link {
+	color: red;
+	font-weight: 800;
+}
+
+.navposts:visited {
+	color: mediumpurple;
+}
+
+.navposts:hover {
+	color: red;
+}
+
+
+
+/****************
+Footer
+****************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: mediumpurple;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/****************
+Page: Plan
+****************/
+.primary {
+	float: none;
+	width: 100%;
+	
+}
+
+.about {
+	
+	border: 2px;
+	margin: 2px 4px;
+	width: 100%;
+}
+
+.secondary {
+	
+	border: 2px;
+	margin: 2px 4px;
+	width: 100%;
+}
+
+/****************
+Page: Favorites
+****************/
+
+#wrapper {
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 0 5%;
+  list-style: none;
+  flex-wrap: flex;
+  align-content: space-around;
+}
+
+.favorites {
+	color: #000;
+}
+
+.rides {
+	list-style-type: none;
+	width: 100%;
+	font-size: .85em;
+}
+
+.mk,
+.epcot,
+.ak,
+.hs {
+	font-family: 'WaltographRegular'; 
+	font-size: .90em;
+}
+
+.chef img {
+	
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+ .royal img {
+	
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+
+/****************
+Page: Reviews
+****************/
+#animation {
+	color: #000;
+}
+
+.container {
+	width: 5%;
+	margin: 0 15px;
+	
+}
+
+
+/****************
+Page: Resort
+****************/
+
+.why {
+	
+	border: 2px;
+	margin: 2px 4px;
+	width: 100%;
+}
+
+.gallery {
+	width: 100%;
+}
+
+.video {
+	width: 100%;
+}
+
+/****************
+Page: Art of Animation
+****************/
+.posts {
+	border: 2px;	
+}
+
+.posts li {
+	list-style: none;
+}
+
+.art_review {
+	float: left;
+	width: 70%;
+}
+
+/****************
+Page: D23 News
+****************/
+#d_23 {
+	color: #000;
+}
+
+.d23_intro {
+	width: 100%;
+}
+
+.d23_movies,
+.d23_parkinfo,
+.d23_resort,
+ol {
+	list-style: square;
+}
+
+/****************
+Page: 100 days
+****************/
+
+#100_header h2 {
+	color: #000;
+}
+
+.dayspost {
+	
+}
+
+.genie img {
+	width: 360px;
+	height: 200px;
+	margin: 5px;
+	padding: 2px;
+	
+}
+
+/****************
+Page: Fast Passes
+****************/
+
+.fastpass {
+	
+}
+
+.teacup img {
+	width: 360px;
+	height: 300px;
+	margin: 5px;
+	padding: 2px;
+}
+
+/****************
+Media Queries
+****************/
+
+@media (min-width: 768px) {
+    .main-header {
+		width: 100%;
+        margin-bottom: auto;
+		
+    }  
+	
+	.primary {
+		width: 70%;
+		float: left;
+	}
+	
+	.secondary {
+		width: 25%;
+		float: right;
+		padding: 0 6px;
+	}
+	
+	.about {
+		width: 25%;
+		float: right;
+		padding: 0 6px;
+	}
+	
+	.name {
+    font-size: 4.75em;
+    margin: 10px 0;
+}
+	h2 {
+    font-size: 2em; 
+    text-align: center;
+	}
+	
+	.rides,
+	.eats {
+		font-size: 2em;
+		text-align: left;
+		padding: 0 5%;
+	}
+	
+	.mk,
+	.epcot,
+	.ak,
+	.hs {
+		font-size: 2em;
+	}
+	
+	#wrapper {
+		max-width: 540px;
+  		margin: 0 auto;
+  		padding-right: 75%;
+	}
+	
+	.chef img {
+		float:left;
+		max-width: 720px;
+		max-height: 720px;
+	}
+	
+	.royal img {
+		max-width: 720px;
+		max-height: 720px;
+	}
+	
+	iframe {
+		width: 560px;
+		height: 315px;
+	}
+	
+	.container {
+		width: 35%;
+		margin-right: 65px;
+		float: right;
+	}
+	.four,
+	.five,
+	.six {
+		width: 55%;
+		float: left;
+	}
+	
+	.why {
+		width: 25%;
+		float: right;
+		padding: 0 6px;
+	}
+	
+	.gallery {
+		width: 70%;
+		float: left;
+		padding: 0 6px;
+	}
+	
+	.video {
+		float: left;
+		width: 30%;
+    	padding: 50px 0 0 15px;
+   	 	margin: 45px 0 0 0;
+	}
+	
+	.art_review {
+		width: 70%;
+	}
+	
+	.posts {
+		float: right;
+		margin: 25px 15px;
+		padding: 2px 5px;
+		width: 15%;
+		height: 35px;
+}
+	.d23_intro {
+	width: 70%;
+}
+
+	.dayspost {
+		width:70%;
+	}
+	
+	.genie {
+	float: right;
+	width: 20%;
+}
+	.genie img {
+		width: 600px;
+		height: 415px;
+		margin:0 0 50px -300px;
+	}
+	
+	.fastpass {
+		width: 70%;
+		float: left;
+	}
+	
+	.teacup {
+		float: right;
+		width: 25%;
+		margin: 75px 25px 50px;
+	}
+	
+	.teacup img {
+		width: 450px;
+		height: 285px;
+		
+	}
+	
+    
+}
+
+@media (min-width: 1025px){
+	.main-header {
+		margin: 0 10px 10px 0;
+		padding: 5px;
+		width: 100%;
+        height: 500px;
+		float: none;
+		
+	}
+	
+	nav {
+    	text-align: right;
+    	padding: 300px 5px;
+    	margin: 0 0 20px 0;
+
+	}
+	
+	h2 {
+		text-align: center;
+		margin: 10px;
+	}
+	
+	.primary {
+		width: 70%;
+		float: left;
+	}
+	
+	.secondary {
+		width: 25%;
+		float: right;
+	}
+	
+	.about {
+		width: 25%;
+		float: right;
+	}
+	
+	.why {
+		width: 25%;
+		float: right;
+	}
+    
+	}
